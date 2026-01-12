@@ -1,183 +1,186 @@
-body{
-    font-family:"Roboto", sans-serif ;
-    color: #2E2F42;
-    letter-spacing: 2%;
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style: none;
 }
 /*-------------------------------------------- header ------------------------------------*/
-.logo-link{
-    text-decoration: none;
+.logo-link {
+  text-decoration: none;
 }
 
-.logo-first-p{
-    font-family:Raleway ;
-    font-style:Bold;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    text-decoration:none;
-    color:#4D5AE5
+.logo-first-p {
+  font-family: Raleway;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  text-decoration: none;
+  color: #4d5ae5;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
-.logo-second-p{
-    font-family: Raleway;
-    font-style:Bold;
-     font-weight: 700;
-     font-size: 18px;
-     line-height: 1.17;
-     text-decoration: none;   
-    color: #2E2F42;
-}   
-
-.info-list{
-    list-style-type:none;
+.logo-second-p {
+  font-family: Raleway;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  text-decoration: none;
+  color: #2e2f42;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
-.info-list-point{
-    font-size:16px ;
-    line-height: 1.5;
-    font-weight: 500;
-    font-style: medium;
-    text-decoration:none;
-    color: #2E2F42;
+.info-list-point {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  font-style: medium;
+  text-decoration: none;
+  color: #2e2f42;
 }
 
-.info-a-list-point{
-    font-size:16px ;
-    line-height: 1.5;
-    text-decoration:none;
-    color:#434455;
+.info-list-point:hover,
+.info-list-point:focus {
+  color: #404bbf;
 }
 
-.info-a-list-point:hover, .info-a-list-point:focus{
-    color:#4D5AE5
+.info-a-list-point {
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: #434455;
+}
+
+.info-a-list-point:hover {
+  color: #404bbf;
 }
 
 /*------------------------------------------ hero ------------------------------------*/
-.hero-section{
-    background-color: #2E2F42;
+.hero-section {
+  background-color: #2e2f42;
 }
 
-.hero-title{
-    font-weight: 700;
-    font-style:bold ;
-    font-size: 56px;
-    line-height: 1.08;
-    text-align: center;
-    color: #ffffff;
+.hero-title {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
 }
 
-.hero-button{
-    background-color: #4D5AE5;
-    color: #ffffff;
-    font-weight: 500;
-    font-style: medium;
-    font-size: 16px;
-    line-height:1.5 ;
-    cursor: pointer;
+.hero-button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  letter-spacing: 0.04em;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
 /*------------------------------------- features section -----------------------*/
 
-.features-list{
-    list-style-type: none;
-
+.features-point-title {
+  font-weight: 500;
+  font-style: medium;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
-.features-point-title{
-    font-weight: 500;
-    font-style: medium;
-    font-size: 20px;
-    line-height:1.2 ;
-}
-
-.features-point-text{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
+.features-point-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
 }
 
 /*---------------------------------------- team section ------------------------------*/
 
-.team-s{
-    background-color: #F4F4FD;
+.team-s {
+  background-color: #f4f4fd;
 }
 
-.team-title{
-    font-weight: 700;
-    font-style: bold;
-    font-size: 36px;
-    line-height:1.11 ;
-    text-align: center;
+.team-title {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
 }
 
-.team-list{
-    list-style-type: none;
+.team-p {
+  background-color: #ffffff;
 }
 
-.team-p{
-    background-color: #ffffff;
+.team-name {
+  font-weight: 500;
+  font-style: medium;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
 }
 
-.team-name{
-    font-weight: 500;
-    font-style: medium;
-    font-size: 20px;
-    line-height:1.2 ;
-    text-align: center;
-}
-
-.team-r{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-    text-align: center;
+.team-r {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  text-align: center;
 }
 
 /*--------------------------------------- portfolio section --------------------------------*/
 
-.portfolio-main{
-    font-weight: 700;
-    font-style: bold;
-    font-size: 36px;
-    line-height:1.11 ;
-    text-align: center;
+.portfolio-main {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
 }
 
-.portfolio-list{
-    list-style-type: none   ;
+.portfolio-title {
+  font-weight: 500;
+  font-style: medium;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
-.portfolio-title{
-    font-weight: 500;
-    font-style: medium;
-    font-size: 20px;
-    line-height:1.2 ;
-}
-
-.portfolio-type-p{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;     
+.portfolio-type-p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
 }
 
 /*-------------------------------------- footer -------------------------------*/
 
-.last-section{
-    background-color: #2E2F42;
+.last-section {
+  background-color: #2e2f42;
 }
 
-.logo-second-f-p{
-    font-family: Raleway;
-    font-style:Bold;
-     font-weight: 700;
-     font-size: 18px;
-     line-height: 1.17;
-     text-decoration: none;   
-    color: #F4F4FD;
+.logo-second-f-p {
+  font-family: Raleway;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  text-decoration: none;
+  color: #f4f4fd;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
-.footer-text{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #F4F4FD;
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
 }
