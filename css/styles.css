@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
+  background-color: #ffffff;
   letter-spacing: 0.02em;
 }
 
@@ -14,7 +15,6 @@ ul {
 
 .logo-first-p {
   font-family: Raleway;
-  font-style: Bold;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -26,7 +26,6 @@ ul {
 
 .logo-second-p {
   font-family: Raleway;
-  font-style: Bold;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -40,7 +39,6 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
-  font-style: medium;
   text-decoration: none;
   color: #2e2f42;
 }
@@ -52,12 +50,13 @@ ul {
 
 .info-a-list-point {
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   text-decoration: none;
   color: #434455;
 }
 
-.info-a-list-point:hover {
+.info-a-list-point:hover .info-a-list-point:focus {
   color: #404bbf;
 }
 
@@ -68,9 +67,9 @@ ul {
 
 .hero-title {
   font-weight: 700;
-  font-style: bold;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
 }
@@ -79,7 +78,6 @@ ul {
   background-color: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
-  font-style: medium;
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
@@ -94,7 +92,7 @@ ul {
 
 .features-point-title {
   font-weight: 500;
-  font-style: medium;
+  letter-spacing: 0.02em;
   font-size: 20px;
   line-height: 1.2;
 }
@@ -113,8 +111,8 @@ ul {
 
 .team-title {
   font-weight: 700;
-  font-style: bold;
   font-size: 36px;
+  letter-spacing: 0.02em;
   line-height: 1.11;
   text-align: center;
 }
@@ -125,7 +123,7 @@ ul {
 
 .team-name {
   font-weight: 500;
-  font-style: medium;
+  letter-spacing: 0.02em;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
@@ -142,15 +140,15 @@ ul {
 
 .portfolio-main {
   font-weight: 700;
-  font-style: bold;
   font-size: 36px;
+  letter-spacing: 0.02em;
   line-height: 1.11;
   text-align: center;
 }
 
 .portfolio-title {
   font-weight: 500;
-  font-style: medium;
+  letter-spacing: 0.02em;
   font-size: 20px;
   line-height: 1.2;
 }
@@ -169,7 +167,6 @@ ul {
 
 .logo-second-f-p {
   font-family: Raleway;
-  font-style: Bold;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
