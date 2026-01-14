@@ -56,7 +56,8 @@ ul {
   color: #434455;
 }
 
-.info-a-list-point:hover .info-a-list-point:focus {
+.info-a-list-point:hover,
+.info-a-list-point:focus {
   color: #404bbf;
 }
 
